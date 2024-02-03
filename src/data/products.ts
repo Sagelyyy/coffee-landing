@@ -1,7 +1,7 @@
 const productData = [
   {
     id: 1,
-    img: "public/coffee_bag.png",
+    img: "/bold_coffee.jpeg",
     name: "Bold Essence Blend",
     roastType: "Dark Roast",
     price: "$17.00",
@@ -11,7 +11,7 @@ const productData = [
   },
   {
     id: 2,
-    img: "public/coffee_bag.png",
+    img: "/artisan_coffee.jpeg",
     name: "Artisan Roast Reserve",
     roastType: "Medium Roast",
     price: "$17.50",
@@ -21,7 +21,7 @@ const productData = [
   },
   {
     id: 3,
-    img: "public/coffee_bag.png",
+    img: "/meb_coffee.jpeg",
     name: "Morning Elixir Brew",
     roastType: "Light Roast",
     price: "$19.00",

@@ -9,8 +9,8 @@ function App() {
   const [interStatus, setInterStatus] = useState(true);
   return (
     <div className="bg-white">
-      <Navigation interStatus={interStatus} setInterStatus={setInterStatus} />
-      <Hero interStatus={interStatus} setInterStatus={setInterStatus} />
+      <Navigation interStatus={interStatus} />
+      <Hero setInterStatus={setInterStatus} />
       <Cta />
       <Products />
     </div>

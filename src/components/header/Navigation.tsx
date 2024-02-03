@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { IProps } from "../../utils/types";
 
-function Navigation({ interStatus, setInterStatus }: IProps) {
+function Navigation({ interStatus }: IProps) {
   const [mobile, setMobile] = useState({ isMobile: true, open: false });
 
   useEffect(() => {
