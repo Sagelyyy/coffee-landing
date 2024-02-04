@@ -4,6 +4,7 @@ import Cta from "./components/cta/Cta";
 import Navigation from "./components/header/Navigation";
 import Hero from "./components/hero/Hero";
 import Products from "./components/products/Products";
+import Contact from "./components/contact/Contact";
 
 function App() {
   const [interStatus, setInterStatus] = useState(true);
@@ -13,6 +14,7 @@ function App() {
       <Hero setInterStatus={setInterStatus} />
       <Cta />
       <Products />
+      <Contact />
     </div>
   );
 }

@@ -32,15 +32,12 @@ function Hero({ setInterStatus }: IProps) {
       <div className="absolute top-2 p-2 w-full">
         <h1
           ref={ref}
-          className="text-neutral-50 lg:mt-20 text-2xl font-bold p-6 sm:text-8xl text-shadow lg:p-10 font-header"
+          className="text-neutral-50 lg:mt-20 sm:mt-10 text-5xl font-bold p-6 sm:text-8xl lg:p-10 font-header text-shadow shadow-zinc-950"
         >
-          We make{" "}
-          <span className="text-amber-950 text-shadow shadow-neutral-900">
-            Coffee Diff
-          </span>
+          We make <span className="text-amber-950">Coffee Diff</span>
           erent.
         </h1>
-        <p className="font-paragraph mt-8 text-neutral-50 font-bold w-full text-xs invisible lg:ml-10 lg:visible lg:max-w-6xl lg:text-lg">
+        <p className="font-paragraph mt-8 text-neutral-50 font-bold w-full text-xs invisible lg:ml-10 lg:visible lg:max-w-6xl lg:text-lg text-shadow shadow-zinc-950">
           Welcome to Coffee Diff, where each cup tells a unique story. Immerse
           yourself in the artistry of our carefully selected beans and
           experience coffee like never before. From the first sip to the last
